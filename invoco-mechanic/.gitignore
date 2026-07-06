@@ -8,11 +8,30 @@ expo-env.d.ts
 # Native builds
 ios/
 android/
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
 
 # Secrets & environment variables
 .env
 .env.*
 !.env.example
+*.pem
+
+# TypeScript
+*.tsbuildinfo
 
 # OS
 .DS_Store
