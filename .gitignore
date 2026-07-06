@@ -1,3 +1,18 @@
-./.idea/
-./supabase/
-./invoco-mechanic/expo-env.d.ts/
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets & environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*credentials*
+google-services.json
+GoogleService-Info.plist
